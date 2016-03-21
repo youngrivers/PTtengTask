@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    <title></title>
+    <link href="root.css" type="text/css" rel="stylesheet">
+    <script type="text/css">
+        var i=0;
+        function shownavi(nav,content,i)  {
+            if(i%2==1)  {
+                content.style.left="60%";
+                nav.style.display="block";
+            }
+            else {
+                content.style.left="auto";
+                nav.style.display="none";
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="wrap">
+        <!--<input type="checkbox" id="header">-->
+        <!--<div id="nav">-->
+            <!--<ul>-->
+                <!--<li class="voice">公告<a href="#"><img src="images/next.jpg"></a></li>-->
+                <!--<li class="set">设置<a href="#"><img src="images/next.jpg"></a></li>-->
+                <!--<li class="help">帮助<a href="#"><img src="images/next.jpg"></a></li>-->
+                <!--<li class="about">关于<a href="#"><img src="images/next.jpg"></a></li>-->
+            <!--</ul>-->
+        <!--</div>-->
+        <div class="header">
+            <!--<label for="header">-->
+                <img src="images/menu.jpg" onclick="shownavi(nav,content,i);i++">
+            <!--</label>-->
+
+            <div id="nav">
+                <p>
+                    <img src="images/voice.jpg" align="left" style="width: 11%">
+                    公告
+                    <img src="images/nexts.jpg" align="right" style="width: 8%">
+                </p>
+                <hr/>
+                <p>
+                    <img src="images/set.jpg" align="left" style="width: 11%">
+                    设置
+                    <img src="images/nexts.jpg" align="right" style="width: 8%">
+                </p>
+                <hr/>
+                <p>
+                    <img src="images/help.jpg" align="left" style="width: 11%">
+                    帮助
+                    <img src="images/nexts.jpg" align="right" style="width: 8%">
+                </p>
+                <hr>
+                <p>
+                    <img src="images/about.jpg" align="left" style="width: 11%">
+                    关于
+                    <img src="images/nexts.jpg" align="right" style="width: 8%">
+                </p>
+            </div>
+        </div>
+        <div class="middle" id="content">
+            <div class="nextGame">
+                <span>上次游戏：追鬼猜词版</span>
+                <img src="images/nexts.jpg">
+            </div>
+            <div class="foot">
+                <div class="footone"><span>捉鬼游戏</span></div>
+                    <div class="footthree"><span>简化版</span></div><p>有1133个用户正在玩此款游戏</p>
+                    <div class="footthree"><span>猜词版</span></div><p>有1133个用户正在玩此款游戏</p>
+                    <div class="footthree"><span>白痴版</span></div><p>有1133个用户正在玩此款游戏</p>
+                    <img class="next" src="images/details.jpg">
+                    <img src="images/page.jpg">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

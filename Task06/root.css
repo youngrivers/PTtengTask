@@ -1,0 +1,103 @@
+body{
+    padding: 0;
+    font-family: "Microsoft Yahei";
+    margin: 0 ;
+}
+span{
+    color: white;
+    font-size: 150%;
+}
+p{
+    color: #4C514F;
+    font-size: 150%;
+}
+.wrap{
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+    height: 1130px;
+    background-color: #29BEDF;
+}
+.header{
+    width: 100%;
+    height: 11%;
+    position: relative;
+}
+.headerLeft{
+    position: absolute;
+    bottom: 12%;
+    left: 4%;
+}
+.headerRight{
+    position: absolute;
+    bottom: 12%;
+    right: 4%;
+}
+.header span{
+    position: absolute;
+    bottom: 12%;
+    left: 46%;
+    font-size: 200%;
+}
+.up{
+    height: 8%;
+    position: relative;
+    background-color: #B9E9F5;
+    margin-left:1px;
+}
+.up img{
+    position: absolute;
+    top: 20%;
+    right: 3%;
+}
+.up p{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+.middle{
+    position: relative;
+}
+.check{
+    height: 6%;
+    position:relative;
+    background-color: #29BEDF;
+}
+.check img{
+    position: absolute;
+    left: 12%;
+}
+.check span{
+    position: absolute;
+    top: 9%;
+    left: 15%;
+    padding-top: 3%;
+}
+.box{
+    width: 20%;
+    margin: 5% 6%;
+    border: 4px solid white;
+    background-color:#F6C87B;
+    float:left;
+    text-align:center;
+}
+.box span{
+    width: 100%;
+    background-color: #83B09B;
+}
+.foot{
+    position: fixed;
+    top: 80%;
+    width: 100%;
+    max-width: 640px;
+    height: 50%;
+    background-color: #29BEDF;
+}
+.die{
+    height: 25%;
+    background-color:orange;
+    margin: 6% 10%;
+    padding-top: 1%;
+    text-align: center;
+    font-size: 200%;
+}

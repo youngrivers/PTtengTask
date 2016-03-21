@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+/*@media screen and (max-width:540px) {*/
+    /*.vote {*/
+        /*font-size:60%;*/
+    /*}/!*通过判断屏幕分辨率的大小，选择执行条件，达到缩放字体的目的*!/*/
+/*}*/
+.box {
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+}
+.header {
+    width: 100%;
+    height: 90px;
+    background-color: #22292C;
+    position: relative;
+}
+#text {
+    position: absolute;
+    top:20px;
+    left: 50px;
+}
+strong {
+    position: absolute;
+    top: 20px;
+    left: 285px;
+}
+.pg {
+    position: absolute;
+    top: 20px;
+    left: 17px;
+}
+.pgtwo {
+    position: absolute;
+    top: 35px;
+    right: 15px;
+}
+.hand {
+    position: absolute;
+    height: 1050px;
+    background-color: #68CDD5;
+    width: 100%;
+    max-width: 640px;
+}
+.bank {
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 35px;
+}
+.middle {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 30%;
+}
+.word {
+    position: absolute;
+    margin-top: 345px;
+    margin-left: 90px;
+}
+.font {
+    color: aliceblue;
+    font-family:"Microsoft Yahei";
+    font-size: 180%;
+}
+.foot {
+    position: absolute;
+    margin-top: 500px;
+}
+.user {
+    width: 20%;
+    float: left;
+    margin-top:710px;
+    text-align: center;
+    padding: 5% 15%;
+}
+.putaoteng {
+    width: 20%;
+    float: right;
+    margin-top:710px;
+    text-align: center;
+    padding: 5% 15%;
+}
+.user img {
+    margin: 0 auto;
+}
