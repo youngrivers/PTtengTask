@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 50px;
+}
+.headerLeft{
+    float: left;
+}
+.headerRight{
+    float: right;
+}
+.headerRight .hImg{
+    float: left;
+}
+.headerImg1{
+    width: 27px;
+    height: 27px;
+    background: url("images/mobile.png") no-repeat;
+}
+.headerImg2{
+    width: 27px;
+    height: 27px;
+    background: url("images/qq.png");
+}
+.headerImg3{
+    width: 27px;
+    height: 27px;
+    background: url("images/weixin.png");
+}
+.headerImg4{
+    width: 27px;
+    height: 27px;
+    background: url("images/weibo.png");
+}
+.menu{
+    height: 100px;
+    background-color: rgb(41,176,120);
+}
