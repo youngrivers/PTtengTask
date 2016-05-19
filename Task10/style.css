@@ -38,3 +38,7 @@ body{
     height: 100px;
     background-color: rgb(41,176,120);
 }
+.banner{
+    height: 450px;
+    background: url("images/banner-1.jpg") 100%;
+}
