@@ -38,6 +38,11 @@ body{
     height: 100px;
     background-color: rgb(41,176,120);
 }
+.menuLeftImg{
+    width: 270px;
+    height: 52px;
+    background:url("images/logo.png");
+}
 .banner{
     height: 450px;
     background: url("images/banner-1.jpg") 100%;
