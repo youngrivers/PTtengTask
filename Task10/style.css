@@ -4,15 +4,41 @@ body{
 }
 .header{
     height: 50px;
+    font-size: 14px;
+    font-family: Microsoft YaHei;
 }
 .headerLeft{
+    width: 30%;
+    height: 50px;
+    display: block;
     float: left;
+    padding: 0 15px;
+    line-height: 20px;
+}
+.headerLeft span{
+    position: relative;
+    left: 90px;
+    top: 15px;
+    color: #56A087;
 }
 .headerRight{
+    position: relative;
+    right: 100px;
+    top: 15px;
     float: right;
 }
 .headerRight .hImg{
     float: left;
+    padding: 0 15px 0 0;
+    background-repeat: no-repeat;
+}
+.headerRight span{
+    padding: 0 5px 0 0;
+    cursor: pointer;
+    line-height:25px;
+}
+.headerRight span:hover{
+    color: #56A087;
 }
 .headerImg1{
     width: 27px;
@@ -37,13 +63,61 @@ body{
 .menu{
     height: 100px;
     background-color: rgb(41,176,120);
+    position: relative;
+}
+.menuLeft{
+    float: left;
+    position: relative;
+    top: 20px;
+    left: 90px;
+    padding: 0 15px;
 }
 .menuLeftImg{
-    width: 270px;
+    width: 290px;
     height: 52px;
-    background:url("images/logo.png");
+    background:url("images/logo.png") no-repeat;
 }
-.banner{
+.menuRight{
+    position: relative;
+    float: right;
+    top: 25px;
+    right: 70px;
+    text-align: center;
+}
+.menuRight li{
+    float: left;
+    width: 114px;
+    height: 100px;
+    display: block;
+    cursor: pointer;
+}
+.menuRight li a{
+    display: block;
+    height:55px;
+    width: 84px;
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    color: #fff;
+}
+.menuRight li a:hover{
+    border-bottom: 4px solid #fff;
+}
+.banner li{
+    display: block;
+    text-decoration: none;
     height: 450px;
+    max-width: 100%;
+    list-style: none;
+}
+.banner .img1{
     background: url("images/banner-1.jpg") 100%;
+}
+.banner .img2{
+    background: url("images/banner-2.jpg") 100%;
+}
+.banner .img3{
+    background: url("images/banner-3.jpg") 100%;
+}
+.banner .img4{
+    background: url("images/banner-4.jpg") 100%;
 }
