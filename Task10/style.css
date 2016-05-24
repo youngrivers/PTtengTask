@@ -98,6 +98,7 @@ body{
     font-size: 16px;
     font-family: "Microsoft YaHei";
     color: #fff;
+    text-decoration: none;
 }
 .menuRight li a:hover{
     border-bottom: 4px solid #fff;
@@ -120,4 +121,29 @@ body{
 }
 .banner .img4{
     background: url("images/banner-4.jpg") 100%;
+}
+.middleTitle{
+    height: 261px;
+}
+.row{
+    padding: 55px 90px;
+    display: block;
+}
+.middleTitle-icon1{
+    width: 292px;
+    height: 151px;
+    position: relative;
+    float: left;
+}
+.middleTitle-icon2{
+    width: 292px;
+    height: 151px;
+    position: relative;
+    float: left;
+}
+.middleTitle-icon3{
+    width: 292px;
+    height: 151px;
+    position: relative;
+    float: left;
 }
