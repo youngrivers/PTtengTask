@@ -1,11 +1,11 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: Microsoft YaHei;
 }
 .header{
     height: 50px;
     font-size: 14px;
-    font-family: Microsoft YaHei;
 }
 .headerLeft{
     width: 30%;
@@ -96,7 +96,6 @@ body{
     height:55px;
     width: 84px;
     font-size: 16px;
-    font-family: "Microsoft YaHei";
     color: #fff;
     text-decoration: none;
 }
@@ -129,21 +128,221 @@ body{
     padding: 55px 90px;
     display: block;
 }
-.middleTitle-icon1{
-    width: 292px;
-    height: 151px;
-    position: relative;
-    float: left;
-}
-.middleTitle-icon2{
+.middleTitle-icon1,.middleTitle-icon2,.middleTitle-icon3{
+    text-align: center;
     width: 292px;
     height: 151px;
     position: relative;
     float: left;
 }
 .middleTitle-icon3{
-    width: 292px;
-    height: 151px;
+    border-right: 1px solid #dedede;
+}
+.middleTitle1{
+    padding-top: 33px;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+.middleTitle2{
+    padding-top: 33px;
+    font-size: 16px;
+    color: #999;
+}
+.middleTitle-num{
     position: relative;
     float: left;
+    width: 162px;
+    margin-left: 32px;
+    font-size: 18px;
+    color: #26a26f;
+}
+.middleTitle-word{
+    position: relative;
+    width: 162px;
+    float: left;
+    padding-left: 32px;
+    font-size: 18px;
+    color: #999;
+}
+.wrap{
+    height: 447px;
+    background-color: rgb(250,250,250);
+    text-align: center;
+}
+.wrap h4{
+    margin: 10px 0;
+    font-size: 18px;
+}
+.wrap span,.wrap p{
+    font-size: 14px;
+    color: #333;
+}
+.wrap-content{
+    width: 260px;
+    height: 200px;
+    background-color: #fff;
+    float: left;
+    margin: 0 15px;
+    margin-top: 52px;
+    border: 1px solid #e8e8e8;
+}
+.wrap-content h5{
+    padding-top: 30px;
+}
+.wrap-content p{
+    margin: 0 35px;
+}
+.career{
+    height: 824px;
+    text-align: center;
+}
+.career h4{
+    margin: 10px 0;
+    font-size: 18px;
+}
+.career span{
+    font-size: 14px;
+    color: #333;
+}
+.career-introduce{
+    position: relative;
+    width: 290px;
+    height: 280px;
+    float: left;
+    margin-top: 30px;
+}
+.career-introduce h4{
+    font-size: 26px;
+    color: #fff;
+    width: 262px;
+    height: 200px;
+    margin:20px 14px;
+    line-height: 100px;
+}
+.career-introduce p{
+    position: relative;
+    width: 53px;
+    height: 20px;
+    top: -35px;
+    right: -205px;
+    font-weight: normal;
+    color: #fff;
+}
+.career-introduce p img{
+    color: #fff;
+}
+.career-introduce button{
+    width: 262px;
+    height: 52px;
+    background-color: #fff;
+    border: 1px solid black;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    cursor: pointer;
+}
+.career-introduce button:hover{
+    color: #ff650e;
+    border-color: #ff650e;
+}
+.career-icon1 h4{
+    background-color: rgb(158,126,211);
+}
+.career-icon2 h4{
+    background-color: rgb(76,202,138);
+}
+.career-icon3 h4{
+    background-color: rgb(85,174,216);
+}
+.career-icon4 h4{
+    background-color: rgb(227,108,102);
+}
+.career-icon5 h4{
+    background-color: rgb(67,118,161);
+}
+.career-icon6 h4{
+    background-color: rgb(237,112,68);
+}
+.career-icon7 h4{
+    background-color: rgb(24,140,201);
+}
+.career-icon8 h4 {
+    background-color: rgb(59, 163, 234);
+}
+.study{
+    background-color: rgb(250,250,250);
+    text-align: center;
+}
+.study .studyImg1,.studyImg2{
+    width: 570px;
+    height: 300px;
+    float: left;
+}
+.studyImg1{
+    background: url("images/Method1.png");
+}
+.studyImg2{
+    background: url("images/Method2.png");
+}
+.study .studyMethod{
+    width: 570px;
+    height: 300px;
+    float: left;
+    background-color: #fff;
+    color: #999;
+}
+.study button{
+    width: 180px;
+    height: 54px;
+    background-color: #ff650e;
+    color: #fff;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    cursor: pointer;
+    border: none;
+}
+.student{
+    position: relative;
+    text-align: center;
+}
+.studentDetails{
+    width: 262px;
+    height: 389px;
+    float: left;
+}.studentDetails button{
+     width: 262px;
+     height: 52px;
+     background-color: #fff;
+     border: 1px solid #ccc;
+     font-size: 14px;
+     font-family: "Microsoft YaHei";
+     cursor: pointer;
+ }
+.studentDetails button:hover{
+    color: #ff650e;
+    border-color: #ff650e;
+}
+.student1,.student2,.student3,.student4{.
+    width: 108px;
+    height: 108px;
+}
+.student .student1{
+    background: url("images/guchen.jpg") no-repeat;
+}
+.student .student2{
+    display: block;
+    background: url("images/suhaha.png") no-repeat;
+}
+.student .student3{
+    background: url("images/quaner.jpg") no-repeat;
+}
+.student .student4{
+    background: url("images/moer.jpg") no-repeat;
+}
+.footer{
+    height: 207px;
+    background-color: rgb(41,176,120);
+    position: relative;
+}
+.middle{
 }
