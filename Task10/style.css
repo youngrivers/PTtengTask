@@ -1,4 +1,4 @@
-body{
+body,ul,li{
     margin: 0;
     padding: 0;
     font-family: Microsoft YaHei;
@@ -35,7 +35,7 @@ body{
 .headerRight span{
     padding: 0 5px 0 0;
     cursor: pointer;
-    line-height:25px;
+    line-height:20px;
 }
 .headerRight span:hover{
     color: #56A087;
@@ -80,7 +80,7 @@ body{
 .menuRight{
     position: relative;
     float: right;
-    top: 25px;
+    top: 41px;
     right: 70px;
     text-align: center;
 }
@@ -109,17 +109,9 @@ body{
     max-width: 100%;
     list-style: none;
 }
-.banner .img1{
-    background: url("images/banner-1.jpg") 100%;
-}
-.banner .img2{
-    background: url("images/banner-2.jpg") 100%;
-}
-.banner .img3{
-    background: url("images/banner-3.jpg") 100%;
-}
-.banner .img4{
-    background: url("images/banner-4.jpg") 100%;
+.banner li img{
+    width: 100%;
+    float: left;
 }
 .middleTitle{
     height: 261px;
@@ -302,6 +294,7 @@ body{
     border: none;
 }
 .student{
+    height: 653px;
     position: relative;
     text-align: center;
 }
@@ -309,6 +302,7 @@ body{
     width: 262px;
     height: 389px;
     float: left;
+    margin: 0 15px;
 }.studentDetails button{
      width: 262px;
      height: 52px;
@@ -326,23 +320,55 @@ body{
     width: 108px;
     height: 108px;
 }
-.student .student1{
-    background: url("images/guchen.jpg") no-repeat;
-}
-.student .student2{
-    display: block;
-    background: url("images/suhaha.png") no-repeat;
-}
-.student .student3{
-    background: url("images/quaner.jpg") no-repeat;
-}
-.student .student4{
-    background: url("images/moer.jpg") no-repeat;
+.studentDetails img{
+    width: 108px;
+    height: 108px;
+    border-radius: 50%;
 }
 .footer{
-    height: 207px;
+    position: relative;
+    height: 180px;
+    background-color: rgb(41,176,120);
+}
+.footerTree,.footerWeb,.footerWx{
+    float: left;
+}
+.footerTree{
+    width: 487px;
+}
+.footerWeb{
+    width: 487px;
+}
+.footer span{
+    font-size: 16px;
+    color: #fff;
+}
+.footer a{
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+.footer .footerX{
+    border-right: 2px solid #fff;
+}
+.footerWx img{
+    display: block;
+    width: 92px;
+    height: 92px;
+}
+.copyright{
+    height: 27px;
     background-color: rgb(41,176,120);
     position: relative;
+    border-top: 1px solid #32c086;
+;
+}
+.copyright p{
+    line-height: 27px;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
 }
 .middle{
 }
