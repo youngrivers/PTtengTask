@@ -1,0 +1,16 @@
+.pageContent-tips{
+    padding: 0 48px;
+    font-size: 14px;
+}
+.pageContent-tips-green{
+    width: 82px;
+    height: 25px;
+    background-color: #29b078;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 3px;
+    text-align: center;
+}
+.pageContent-tips p{
+    color: #333;
+}

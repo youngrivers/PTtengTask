@@ -1,0 +1,31 @@
+.pageContent-col1{
+    line-height: 66px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #797979;
+    border-bottom: 1px solid #e6e6e6;
+}
+.pageContent-col2{
+    width: 907px;
+    font-size: 14px;
+}
+.pageContent-col2-part{
+    width: 151px;
+    height: 40px;
+    text-align: center;
+}
+.pageContent-col2 ul li{
+    list-style: none;
+    float: left;
+    width: 115px;
+    height: 36px;
+    border: 1px solid rgb(192,192,192);
+    cursor: pointer;
+    margin: 10px 20px 10px 0;
+    text-align: center;
+    line-height: 36px;
+}
+.pageContent-col2 ul li:hover{
+    border-color: #ff650e;
+    color: #ff650e;
+}

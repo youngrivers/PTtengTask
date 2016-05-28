@@ -1,0 +1,12 @@
+.pageContent-problem{
+    margin: 1px 33px;
+    padding: 33px 0;
+    font-size: 14px;
+}
+.pageContent-problem h4 {
+    margin: 10px 0;
+}
+.pageContent-problem p{
+    color: #959595;
+    margin: 0;
+}
