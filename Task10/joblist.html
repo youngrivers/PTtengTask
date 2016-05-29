@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>IT修真院主页/职业殿堂</title>
+    <title>IT修真院主页/职业列表</title>
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="css/about.css" rel="stylesheet" type="text/css">
     <link href="css/jobs.css" rel="stylesheet" type="text/css">
+    <link href="css/joblist.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <div class="header">
@@ -40,37 +41,85 @@
 <div class="page">
     <div class="row">
         <div class="pageMenu">
-            <a href="jobs.html" class="pageClick">职业推荐</a>
-            <a href="joblist.html">职业列表</a>
+            <a href="jobs.html">职业推荐</a>
+            <a href="joblist.html" class="pageClick">职业列表</a>
         </div>
         <div class="pageContent">
-            <div class="pageContent-col1">根据自己状况，参考职业推荐</div>
-            <div class="pageContent-col2">
-                <div class="pageContent-col2-part">状 态：</div>
-                <ul>
-                    <li id="li1">0基础菜鸟</li>
-                    <li id="li2">带艺投身的网管</li>
-                    <li id="li3">科班出身的学霸</li>
-                </ul>
+            <div class="pageContent-list1">
+                <span>方向：</span>
+                <a href="#">前端开发</a>
+                <a href="#">后端开发</a>
+                <a href="#">运行维护</a>
+                <a href="#">产品设计</a>
             </div>
-            <div class="pageContent-col3">
-                <div class="pageContent-col3-part">描 述：</div>
-                <p class="partOn" id="li-col1">从未接触过编程，从其他行业转来，对IT一无所知</p>
-                <!--<p class="partOff" id="li-col2">接触过硬件设备，对软件了解不多</p>
-                <p class="partOff" id="li-col3">基础知识牢固，思维敏捷已有一定的基础</p>-->
+            <div class="pageContent-list2">前端开发</div>
+            <div class="pageContent-box">
+                <table class="pageContent-box-col">
+                    <tr style="height: 172px">
+                        <img src="images/css.jpg" alt="" style="width: 138px"/>
+                        <td>CSS</td>
+                    </tr>
+                    <tr>
+                        <td>职业门槛</td>
+                        <td>难易程度</td>
+                    </tr>
+                    <tr>
+                        <td>成长周期</td>
+                        <td>求贤企业</td>
+                    </tr>
+                    <tr>
+                        <td>入学基础</td>
+                    </tr>
+                    <tr>
+                        <td>进行css的学习几乎不需要任何基础</td>
+                    </tr>
+                    <tr>
+                        <td>薪资待遇</td>
+                    </tr>
+                    <tr>
+                        <td>0-1年</td>
+                        <td>1-3年</td>
+                    </tr>
+                    <tr>
+                        <td>立即修行></td>
+                    </tr>
+                </table>
             </div>
-            <div class="pageContent-col4">
-                <div class="pageContent-col3-part">推荐理由：</div>
-                <p id="li-col2">对于零基础，而又希望进入IT工程师行列的人，css最适合，毕竟css工程师是最容易上手的IT职业，并且现在整个市场也存在巨大的缺口。</p>
+            <div class="pageContent-box">
+                <table class="pageContent-box-col">
+                    <tr style="height: 172px">
+                        <img src="images/css.jpg" alt="" style="width: 138px"/>
+                        <td>CSS</td>
+                    </tr>
+                    <tr>
+                        <td>职业门槛</td>
+                        <td>难易程度</td>
+                    </tr>
+                    <tr>
+                        <td>成长周期</td>
+                        <td>求贤企业</td>
+                    </tr>
+                    <tr>
+                        <td>入学基础</td>
+                    </tr>
+                    <tr>
+                        <td>进行css的学习几乎不需要任何基础</td>
+                    </tr>
+                    <tr>
+                        <td>薪资待遇</td>
+                    </tr>
+                    <tr>
+                        <td>0-1年</td>
+                        <td>1-3年</td>
+                    </tr>
+                    <tr>
+                        <td>立即修行></td>
+                    </tr>
+                </table>
             </div>
-            <div class="pageContent-col5">
-                <div class="pageContent-col3-part">推荐职位：</div>
-                <ul>
-                    <li>CSS</li>
-                    <li>JS</li>
-                    <li>运维</li>
-                </ul>
-            </div>
+            <div class="pageContent-list2">后端开发</div>
+            <div class="pageContent-list2">运行维护</div>
+            <div class="pageContent-list2">产品设计</div>
             <div class="pageContent-box">
                 <table class="pageContent-box-col">
                     <tr style="height: 172px">
@@ -124,6 +173,5 @@
 <div class="copyright">
     <p>Copyright © 2015 北京葡萄藤信息技术有限公司 All Rights Reserved | 京ICP备15035574号-1</p>
 </div>
-<script type="text/javascript" src="jobs.js"></script>
 </body>
 </html>

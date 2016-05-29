@@ -3,9 +3,11 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/about.css" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/css/about.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/joblist.css" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/css/jobs.css" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/css/newp.css" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/css/problem.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jobs.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/script.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/style.css" charset="UTF-8" />
   </component>

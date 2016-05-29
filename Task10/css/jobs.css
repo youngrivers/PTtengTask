@@ -4,21 +4,34 @@
     font-weight: bold;
     color: #797979;
     border-bottom: 1px solid #e6e6e6;
+    padding-left: 30px;
 }
 .pageContent-col2{
+    height: 58px;
     width: 907px;
     font-size: 14px;
+    margin: 0 15px;
+    padding: 20px 0 0 0;
+    color: #797979;
 }
-.pageContent-col2-part{
+.pageContent-col2-part,.pageContent-col3-part{
     width: 151px;
-    height: 40px;
+    height: 58px;
     text-align: center;
+    float: left;
+    line-height: 58px;
+}
+.pageContent-col2 ul{
+    width: 720px;
+    display: block;
+    float: left;
 }
 .pageContent-col2 ul li{
     list-style: none;
     float: left;
     width: 115px;
     height: 36px;
+    color: #333;
     border: 1px solid rgb(192,192,192);
     cursor: pointer;
     margin: 10px 20px 10px 0;
@@ -28,4 +41,83 @@
 .pageContent-col2 ul li:hover{
     border-color: #ff650e;
     color: #ff650e;
+}
+#on{
+    border-color: #ff650e;
+    color: #ff650e;
+}
+.partOn{
+    display: block;
+}
+.partOff{
+    display: none;
+}
+.pageContent-col3{
+     height: 58px;
+     width: 907px;
+     font-size: 14px;
+     margin: 0 15px 12px 15px;
+     color: #797979;
+    border-bottom: 1px solid #c0c0c0;
+}
+.pageContent-col3 p{
+    color: #333;
+    line-height: 58px;
+    left: 166px;
+    margin: 0;
+}
+.pageContent-col4{
+    height: 58px;
+    width: 907px;
+    font-size: 14px;
+    margin: 0 15px 12px 15px;
+    color: #797979;
+}
+.pageContent-col4 p{
+    color: #333;
+    left: 166px;
+    margin: 0;
+    padding:20px 0 0 0;
+}
+.pageContent-col5{
+    height: 58px;
+    width: 907px;
+    font-size: 14px;
+    margin: 0 15px 12px 15px;
+    color: #797979;
+}
+.pageContent-col5 ul li{
+    list-style: none;
+    float: left;
+    width: 86px;
+    height: 36px;
+    color: #333;
+    border: 1px solid rgb(192,192,192);
+    cursor: pointer;
+    margin: 10px 20px 10px 0;
+    text-align: center;
+    line-height: 36px;
+}
+.pageContent-col5 ul li:hover{
+    border-color: #ff650e;
+    color: #ff650e;
+}
+.pageContent-box-col{
+    border-collapse: collapse;
+    text-align: center;
+    border:0;
+    width: 358px;
+    height: 498px;
+    font-size: 12px;
+    color: #a9a9a9;
+}
+.pageContent-box-col img{
+    width: 138px;
+    height: 138px;
+}
+.pageContent-box-col tr{
+    border:1px solid #797979;
+}
+.pageContent-box-col tr td{
+    border:1px solid #797979;
 }
