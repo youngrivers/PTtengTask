@@ -1,0 +1,15 @@
+.login{
+    height: 650px;
+}
+.login-img{
+    float: left;
+}
+.login-img img{
+    margin: 0 119px;
+}
+.login-box{
+    width: 475px;
+    height: 463px;
+    border: 1px solid #ccc;
+    float: left;
+}
