@@ -1,0 +1,72 @@
+
+.pageContent-skill{
+    padding: 35px 19px;
+    border-bottom: 1px solid #e6e6e6;
+    font-size: 14px;
+}
+/*此处pageContent-skill-on用类名color的优先级低于a标签的优先级*/
+#pageContent-skill-on{
+    background-color: #29b078;
+    color: #fff;
+    border-radius: 3px;
+}
+.pageContent-skill span{
+    font-size: 17px;
+}
+.pageContent-skill a{
+    text-decoration: none;
+    color: #333;
+    padding: 5px 8px;
+    margin: 0 10px;
+    border-right: 1px solid #eee;
+}
+.pageContent-skill a:hover{
+    background-color: #29b078;
+    color: #fff;
+    border-radius: 3px;
+}
+.pageContent-skill button{
+    float: right;
+    width: 98px;
+    height: 34px;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    background-color: #ff650e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.pageContent-skill-type{
+    padding: 19px;
+    font-size: 14px;
+    border-bottom: 1px solid #e6e6e6;
+    font-weight:bold;
+    background-color: #fbfbfb;
+}
+.pageContent-skill-type span{
+    text-align: center;
+    display: inline-block;
+}
+.pageContent-skill-typeA{
+    width:8%;
+}
+.pageContent-skill-typeB{
+    width: 16%;
+}
+.pageContent-skill-content{
+    padding: 19px;
+    font-size: 14px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.pageContent-skill-content span{
+    text-align: center;
+    display: inline-block;
+    padding: 15px 0;
+}
+.pageContent-skill-typeC{
+    cursor: pointer;
+}
+.pageContent-skill-typeC:hover{
+    color: #e6823b;
+}

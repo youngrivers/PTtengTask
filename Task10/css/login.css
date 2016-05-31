@@ -8,8 +8,24 @@
     margin: 0 119px;
 }
 .login-box{
-    width: 475px;
+    width: 473px;
     height: 463px;
     border: 1px solid #ccc;
     float: left;
+}
+.login-box ul li{
+    list-style: none;
+    float: left;
+    height: 48px;
+    width: 236px;
+    text-align: center;
+    display: block;
+    position: relative;
+    line-height: 48px;
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+}
+.login-box ul li a{
+    text-decoration: none;
+    color: #999;
 }
