@@ -29,3 +29,13 @@
     text-decoration: none;
     color: #999;
 }
+.login-box-content{
+    margin: 48px 74px 0 74px;
+    padding: 74px 0;
+}
+.login-box-content i{
+    width: 45px;
+}
+.login-box-content input{
+    height: 46px;
+}
