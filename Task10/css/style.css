@@ -90,37 +90,6 @@ body,ul,li{
 .menuRight li a:hover{
     border-bottom: 4px solid #fff;
 }
-.banner{
-    position: relative;
-    height: 420px;
-    width: 100%;
-    overflow: hidden;
-}
-.banner ul{
-    position: relative;
-    left: 0;
-    width: 400%;
-    transition: left 5s;
-    animation: move 60s;
-}
-@keyframes move {
-    from{
-        left: 0;
-    }
-    to{
-        left: -300%;
-    }
-}
-.banner li{
-    display:block;
-    float: left;
-    width: 1349px;
-    text-decoration: none;
-}
-.banner li img{
-    display:block;
-    max-width: 100%;
-}
 .middleTitle{
     height: 261px;
 }

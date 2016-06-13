@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>IT修真院主页</title>
     <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/banner.css" rel="stylesheet" type="text/css">
+    <link href="css/scroll.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <div class="header">
@@ -36,13 +38,31 @@
     </div>
 </div>
 <div class="shouYe">
-    <div class="banner">
+<!--    <div class="banner">
         <ul>
             <li class="img1"><img src="images/banner-1.jpg" alt=""/></li>
             <li class="img2"><img src="images/banner-2.jpg" alt=""/></li>
             <li class="img3"><img src="images/banner-3.jpg" alt=""/></li>
             <li class="img4"><img src="images/banner-4.jpg" alt=""/></li>
         </ul>
+    </div>-->
+    <div class="banner" id="banner">
+        <div class="banner-list" id="banner-list" style="left: -1349px">
+            <img src="images/banner-4.jpg" alt="1"/>
+            <img src="images/banner-1.jpg" alt="1"/>
+            <img src="images/banner-2.jpg" alt="2"/>
+            <img src="images/banner-3.jpg" alt="3"/>
+            <img src="images/banner-4.jpg" alt="4"/>
+            <img src="images/banner-1.jpg" alt="4"/>
+        </div>
+        <div class="banner-button" id="banner-button">
+            <span index="1" class="active"></span>
+            <span index="2"></span>
+            <span index="3"></span>
+            <span index="4"></span>
+        </div>
+        <a href="javascript:;" id="banner-left">&lt;</a><!--此处调用脚本链接-->
+        <a href="javascript:;" id="banner-right">&gt;</a>
     </div>
     <div class="middleTitle">
         <div class="row">
@@ -206,6 +226,9 @@
                 <a href="#" target="_blank">桌游精灵</a></p></div>
         <div class="footerWx"><div><span>微信公众平台</span><img src="images/code2.jpg" alt=""/></div></div>
 </div>
+<div class="quick-login"></div>
+<div class="scroll"><img src="images/toTop.png" alt=""/><a href="#" target="_top"></a></div>
+<div class="content-us"></div>
 <div class="copyright">
     <p>Copyright © 2015 北京葡萄藤信息技术有限公司 All Rights Reserved | 京ICP备15035574号-1</p>
 </div>
