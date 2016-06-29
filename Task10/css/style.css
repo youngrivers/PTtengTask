@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body,ul,li{
     margin: 0;
     padding: 0;
@@ -89,6 +93,42 @@ body,ul,li{
 }
 .menuRight li a:hover{
     border-bottom: 4px solid #fff;
+}
+/*²à±ßÀ¸*/
+.contact-right{
+    width: 27px;
+    position: fixed;
+    right: 137px;
+    top: 50%;
+    background-color: #29b078;
+    padding: 7px;
+    cursor: pointer;
+}
+.contact-right span{
+    color: #ffffff;
+}
+/*.contact-right:hover{
+    right: 137px;
+}*/
+.contact-right:hover .contact-rightBar{
+    display: block;
+}
+.contact-rightBar{
+    position: fixed;
+    right: 0;
+    top: 45%;
+    width: 137px;
+    background-color: #29b078;
+    display: block;
+}
+.contact-right-QQ,.contact-right-tel{
+    height: 98px;
+    background-color: #fff;
+    margin: 5px 5px 1px 5px;
+    border-radius: 3px;
+    text-align: center;
+    color: #26a26f;
+    line-height: 40px;
 }
 .middleTitle{
     height: 261px;
