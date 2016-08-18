@@ -6,7 +6,11 @@ var li2=document.getElementById("li2");
 var li3=document.getElementById("li3");
 var liCol1=document.getElementById("li-col1");
 var liCol2=document.getElementById("li-col2");
-li1.onclick=function(){
+li1.onclick=function(){/*
+    for(var i=1;i<4;i++){
+        document.getElementById("li+'i'").style.color="#333";
+        document.getElementById("li+'i'").style.borderColor="rgb(192,192,192)";
+    }*/
     this.style.color="#ff650e";
     this.style.borderColor="#ff650e";
     liCol1.innerText="从未接触过编程，从其他行业转来，对IT一无所知";
