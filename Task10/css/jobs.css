@@ -106,22 +106,68 @@
     border-color: #ff650e;
     color: #ff650e;
 }
+.pageContent-box{
+    padding: 25px 55px;
+    float: left;
+}
 .pageContent-box-col{
     border-collapse: collapse;
-    text-align: center;
     border:0;
     width: 358px;
     height: 498px;
     font-size: 12px;
     color: #a9a9a9;
+    border-color: #edf1f2;
+    position: relative;
+}
+.pageContent-box-col b{
+    font-size: 16px;
+    line-height: 45px;
+    color: black;
+    padding: 23px 0 0 0;
 }
 .pageContent-box-col img{
     width: 138px;
     height: 138px;
+    border: 1px solid #e8e8e8;
+    float: left;
+    margin: 17px;
 }
 .pageContent-box-col tr{
     border:1px solid #797979;
 }
 .pageContent-box-col tr td{
     border:1px solid #797979;
+    cursor: pointer;
+}
+.pageContent-box-col .card-right{
+    padding:  0 15px;
+}
+.pageContent-box-col span{
+    color: #f01400;
+}
+.pageContent-box-col .card-base{
+    text-align: center;
+}
+.pageContent-box-col strong{
+    font-weight: normal;
+    float: right;
+}
+.card{
+    text-align: justify;
+    margin: 0 15px 0 0;
+    font-size: 14px;
+    color: #333;
+}
+.card-people{
+    width: 95px;
+    height: 20px;
+    position: absolute;
+    top: 137px;
+    right: 15px;
+    background-image: url("../images/study-num_03.png");
+    background-repeat: no-repeat;
+    padding: 0 0 0 20px;
+    font-size: 14px;
+    color: #333;
 }

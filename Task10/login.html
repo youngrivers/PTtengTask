@@ -43,21 +43,48 @@
         </div>
         <div class="login-box">
             <ul>
-                <li style="border-right: 1px solid #ccc"><a href="#">用户登录</a></li>
-                <li><a href="#">用户注册</a></li>
+                <li><a href="#">用户登录</a></li>
+                <li class="login-on"><a href="#">用户注册</a></li>
             </ul>
             <div class="login-box-content">
-                <i><img src="images/login-input_06.png" alt=""/></i>
-                <input type="text" placeholder="请输入手机号"/>
-                <i><img src="images/login-input_09.png" alt=""/></i>
-                <input type="text" placeholder="请输入登录密码"/>
-                <div>
-                    <s></s><span>记住用户名</span>
-                    <a href="#">忘记密码</a>
-                    <a href="#">立即注册</a>
+                <div class="input-c">
+                    <i></i>
+                    <input type="text" placeholder="请输入手机号"/>
                 </div>
-                <div>
-                    <button>登录</button>
+                <div class="input-l">
+                    <i></i>
+                    <input type="text" placeholder="请输入登录密码"/>
+                </div>
+                <div class="input-detail">
+                    <s class="login-unchecked checked"></s>
+                    <span>记住用户名</span>
+                    <a class="input-a" href="#" style="color: black">立即注册</a>
+                    <a class="input-a" href="#" style="color: black;border-right: 1px solid #bdbdbd">忘记密码</a>
+                </div>
+                <div class="btn">登录
+                </div>
+            </div>
+            <div class="login-box-content login-hide">
+                <div class="input-c" style="margin-top: -60px">
+                    <i></i>
+                    <input type="text" placeholder="请输入手机号"/>
+                </div>
+                <div class="input-c">
+                    <input type="text" placeholder="请输入图形验证码"/>
+                </div>
+                <div class="input-c">
+                    <input type="text" placeholder="请输入验证码"/>
+                </div>
+                <div class="input-l">
+                    <i></i>
+                    <input type="text" placeholder="请输入由字母和数字组成的6-16位密码"/>
+                </div>
+                <div class="input-detail">
+                    <s class="login-checked"></s>
+                    <span>我已阅读并同意<a>《技能树用户协议》</a></span>
+                    <a class="input-a" href="#" style="color: black">立即登录</a>
+                </div>
+                <div class="btn">注册
                 </div>
             </div>
         </div>
@@ -81,5 +108,6 @@
 <div class="copyright">
     <p>Copyright © 2015 北京葡萄藤信息技术有限公司 All Rights Reserved | 京ICP备15035574号-1</p>
 </div>
+<script type="text/javascript" src="js/login.js"></script>
 </body>
 </html>

@@ -1,3 +1,7 @@
+input{
+    margin: 0;
+    padding: 0;
+}
 .login{
     height: 650px;
 }
@@ -12,6 +16,107 @@
     height: 463px;
     border: 1px solid #ccc;
     float: left;
+    background-color: #fff;
+}
+.login-box-content{
+    margin: 48px 74px 0 74px;
+    padding: 74px 0;
+}
+.input-c{
+    height: 46px;
+    width: 325px;
+    padding: 10px 0;
+}
+.input-c i{
+    display: block;
+    float: left;
+    position: absolute;
+    background-image: url("../images/login-input_06.png");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-color: #f3f3f3;
+    width: 45px;
+    height: 44px;
+    border: 1px solid #bdbdbd;
+}
+.input-c input{
+    display: block;
+    float: left;
+    width: 260px;
+    height: 44px;
+    padding-left: 60px;
+    border: 1px solid #bdbdbd;
+    outline-color: #29b078;
+}
+.input-l{
+    height: 46px;
+    width: 325px;
+    padding: 10px 0;
+}
+.input-l i{
+    display: block;
+    float: left;
+    position: absolute;
+    background-image: url("../images/login-input_09.png");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-color: #f3f3f3;
+    width: 45px;
+    height: 44px;
+    border: 1px solid #bdbdbd;
+}
+.input-l input{
+    display: block;
+    float: left;
+    width: 260px;
+    height: 44px;
+    padding-left: 60px;
+    border: 1px solid #bdbdbd;
+}
+.input-detail{
+    padding: 50px 0 15px 0;
+    font-size: 12px;
+}
+.login-checked{
+    width: 15px;
+    height: 15px;
+    background-image: url("../images/checked_07.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    display: inline-block;
+    cursor: pointer;
+}
+.login-unchecked{
+    width: 15px;
+    height: 15px;
+    background-image: url("../images/unchecked_03.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    display: inline-block;
+    cursor: pointer;
+}
+.input-detail a{
+    text-decoration: none;
+    padding: 0 7px;
+}
+.input-a{
+    float: right;
+}
+/*.input-detail s:checked{
+    background-image: url("../images/checked_07.png");
+}*/
+.login-box-content .btn{
+    width: 325px;
+    height: 45px;
+    background-color: rgb(255,101,14);
+    text-align: center;
+    color: #fff;
+    line-height: 45px;
+    font-size: 20px;
+}
+/*选项卡切换*/
+.login-box a{
+    color: #1DB176;
 }
 .login-box ul li{
     list-style: none;
@@ -23,19 +128,20 @@
     position: relative;
     line-height: 48px;
     font-size: 18px;
-    border-bottom: 1px solid #ccc;
+}
+.login-box ul li:first-child{
+    border-right: 1px solid #ccc;
 }
 .login-box ul li a{
     text-decoration: none;
+}
+.login-on{
+    background-color: #f3f3f3;
+    border-bottom: 1px solid #bdbdbd;
+}
+.login-on a{
     color: #999;
 }
-.login-box-content{
-    margin: 48px 74px 0 74px;
-    padding: 74px 0;
-}
-.login-box-content i{
-    width: 45px;
-}
-.login-box-content input{
-    height: 46px;
+.login-hide{
+    display: none;
 }

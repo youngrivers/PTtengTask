@@ -28,6 +28,19 @@
     color: #333;
     border-bottom: 1px solid #c0c0c0;
 }
-.pageContent-list2-part{
-
+.pageContent-part1{
+    position: absolute;
+    top: 715px;
+}
+.pageContent-part2{
+    position: absolute;
+    top: 775px;
+}
+.pageContent-part3{
+    position: absolute;
+    top: 835px;
+}
+.pageContent-part4{
+    position: absolute;
+    top: 895px;
 }

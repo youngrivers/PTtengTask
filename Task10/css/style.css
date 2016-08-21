@@ -2,10 +2,17 @@
     margin: 0;
     padding: 0;
 }
+body{
+    max-width: 1366px;
+    background-color: rgb(250,250,250);
+}
 body,ul,li{
     margin: 0;
     padding: 0;
-    font-family: Microsoft YaHei;
+    font-family: "Microsoft YaHei";
+}
+body{
+    overflow-x: hidden;
 }
 .header{
     height: 50px;
@@ -49,6 +56,10 @@ body,ul,li{
 }
 .headerRight span:hover{
     color: #56A087;
+}
+.headerRight span a{
+    text-decoration: none;
+    color: black;
 }
 .menu{
     height: 97px;
@@ -94,11 +105,16 @@ body,ul,li{
 .menuRight li a:hover{
     border-bottom: 4px solid #fff;
 }
-/*�����*/
+/*左侧边栏*/
+.contact-left{
+    position: fixed;
+    top: 45%;
+}
+/*右侧边栏*/
 .contact-right{
     width: 27px;
     position: fixed;
-    right: 137px;
+    right: -10px;
     top: 50%;
     background-color: #29b078;
     padding: 7px;
@@ -107,9 +123,9 @@ body,ul,li{
 .contact-right span{
     color: #ffffff;
 }
-/*.contact-right:hover{
+.contact-right:hover{
     right: 137px;
-}*/
+}
 .contact-right:hover .contact-rightBar{
     display: block;
 }
@@ -119,17 +135,33 @@ body,ul,li{
     top: 45%;
     width: 137px;
     background-color: #29b078;
-    display: block;
+    display: none;
 }
 .contact-right-QQ,.contact-right-tel{
     height: 98px;
     background-color: #fff;
-    margin: 5px 5px 1px 5px;
+    margin: 5px 5px 5px 5px;
     border-radius: 3px;
     text-align: center;
     color: #26a26f;
     line-height: 40px;
 }
+/*回到顶部*/
+.scroll{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    border-radius: 10px;
+    box-shadow:3px 3px 2px #a1a1a1;
+    background: #333;
+    cursor: pointer;
+}
+#contact-left,#contact-right,#scroll-top{
+    display: none;
+}
+
 .middleTitle{
     height: 261px;
 }
@@ -423,4 +455,10 @@ body,ul,li{
     margin: 0;
 }
 .shouYe{
+}
+/*屏幕适配*/
+@media screen and (max-width: 800px) {
+    .contact-left,.contact-right,.scroll{
+        display: none;
+    }
 }

@@ -1,0 +1,107 @@
+.pageContent-route{
+    width: 845px;
+    padding: 15px 0;
+    margin: 0 48px;
+}
+.pageContent-route h3{
+    text-align: center;
+}
+.pageContent-route span{
+    border-bottom: 2px solid #29b078;
+}
+.pageContent-route h5{
+    text-align: center;
+    color: #bcbcbc;
+}
+.advantage{
+    width: 845px;
+    padding: 15px 0;
+    margin: 0 48px;
+}
+.advantage h3{
+    text-align: center;
+}
+.advantage span{
+    border-bottom: 2px solid #29b078;
+}
+.advantage h5{
+    text-align: center;
+    color: #bcbcbc;
+}
+.advantage-one{
+    width: 373px;
+    float: left;
+    padding: 0 15px;
+}
+
+.advantage-one span{
+    display: block;
+    width: 51px;
+    height: 51px;
+    border: 1px solid #d9d5d6;
+    border-radius: 50%;
+}
+.sprite1{
+    width: 13px;
+    height: 28px;
+    background-image: url("../images/novice-img.png");
+    background-position: 0 0;
+    margin: 11px 0 0 18px;
+    display: block;
+}
+.sprite2{
+    width: 25px;
+    height: 22px;
+    background-image: url("../images/novice-img.png");
+    background-position: 0 -133px;
+    margin: 13px 0 0 11px;
+    display: block;
+}
+.sprite3{
+    width: 15px;
+    height: 16px;
+    background-image: url("../images/novice-img.png");
+    background-position: 0 -47px;
+    margin: 13px 0 0 18px;
+    display: block;
+}
+.sprite4{
+    width: 27px;
+    height: 26px;
+    background-image: url("../images/novice-img.png");
+    background-position: 0 -155px;
+    margin: 10px 0 0 12px;
+    display: block;
+}
+.sprite5{
+    width: 18px;
+    height: 26px;
+    background-image: url("../images/novice-img.png");
+    background-position: 0 -63px;
+    margin: 10px 0 0 15px;
+    display: block;
+}
+.sprite6{
+    width: 25px;
+    height: 21px;
+    background-image: url("../images/novice-img.png");
+    background-position: 0 -112px;
+    margin: 14px 0 0 11px;
+    display: block;
+}
+.sprite7{
+    width: 23px;
+    height: 23px;
+    background-image: url("../images/novice-img.png");
+    background-position: 0 -89px;
+    margin: 11px 0 0 14px;
+    display: block;
+}
+.sprite8{
+    width: 29px;
+    height: 23px;
+    background-image: url("../images/novice-img.png");
+    background-position: 0 -181px;
+    margin: 13px 0 0 10px;
+    display: block;
+}
